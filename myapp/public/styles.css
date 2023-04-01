@@ -1,0 +1,225 @@
+*{
+ padding : 0;
+ margin : 0;
+ box-sizing : border-box;
+}
+
+html{
+ font-family: "Montserrat",sans-serif;
+}
+
+body{
+  background : #eee;
+  padding: 0 16px;
+  margin-bottom: 60px;
+}
+
+nav{
+  background-color: #f5ba13;
+  margin : 16px ;
+  padding : 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+  display : inline;
+}
+
+nav ul li h1{
+  color : white;
+  float : left;
+  font-family : "McLaren" , cursive;
+  font-weight : 200;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+nav ul li button{
+  text-decoration: none;
+  color :black;
+  font-family : "McLaren" , cursive;
+  font-weight : 200;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 18px 20px;
+}
+
+nav ul li h2{
+  text-decoration: none;
+  color :black;
+  font-family : "McLaren" , cursive;
+  font-weight : 200;
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 18px 20px;
+}
+
+.loginicon {
+  border: #f5ba13;
+  background-color: #f5ba13;
+}
+
+nav ul li button:hover{
+  color : white;
+}
+
+.show{
+  display : block;
+  margin : auto;
+  text-align: center;
+  background-color: white;
+  border: #f5ba13;
+  border-radius : 10px;
+  padding : 1px 2px 1px 1px;
+  transition : 800ms;
+  height : 300px;
+  width : 200px;
+  opacity : 1;
+  border-style : solid;
+  border-color: darkblue;
+}
+
+
+
+.show1{
+  display : block;
+  margin : auto;
+  text-align: center;
+  background-color: white;
+  border: #f5ba13;
+  border-radius : 10px;
+  padding : 1px 2px 1px 1px;
+  transition : 800ms;
+  height : 425px;
+  width : 200px;
+  opacity : 1;
+  border-style : solid;
+  border-color: darkblue;
+}
+
+
+.login-text{
+  text-align : center;
+  color : black;
+  float : left;
+  font-family : "McLaren" , cursive;
+  font-weight : 200;
+  padding: 14px 16px ;
+}
+
+.login-label{
+  text-align : center;
+  color : black;
+  float : left;
+  font-family : "McLaren" , cursive;
+  font-weight : 200;
+  padding: 14px 16px ;
+}
+
+.login-btn{
+  margin : 20px;
+  border-radius: 10px;
+  font-family : "McLaren" , cursive;
+  width : 100px;
+  margin-bottom: 3px;
+}
+
+.login-btn1{
+  margin : 20px;
+  border-radius: 10px;
+  font-family : "McLaren" , cursive;
+  width : 100px;
+  margin-top: 2px;
+  color : green;
+  background-color: #f5ba13;
+}
+
+.reg {
+  color: white;
+  background-color: rgba(104, 85, 224, 1);
+}
+
+/* .show.active{
+  transform : translate(100px) scale(0) rotate(180deg);
+  opacity : 0 
+} */
+
+footer{
+  position : absolute;
+  text-align : center;
+  bottom : 0;
+  width : 100%;
+  height : 1.5 rem; 
+}
+
+.feedback {
+  background-color : #f5ba13 ;
+  color: white;
+  padding: 10px 20px;
+  border-color:#eee;
+  border-radius: 50%;
+  font-size:xx-large;
+}
+
+#mybutton {
+  position: fixed;
+  bottom: -2px;
+  right: 10px;
+  margin : 16px ;
+  padding : 16px 32px;
+}
+
+footer p{
+  color : #ccc;
+}
+
+.note{
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width : 240px;
+  margin : 16px;
+  float: left;
+}
+
+.note h1{
+  font-size : 1.1em;
+  margin-bottom:6px;
+  font-family : "McLaren" , cursive;
+}
+
+.note p{
+  font-size: 1.1em;
+  margin-bottom : 10px;
+  white-space : pre-wrap;
+  word-wrap : break-word;
+  font-family : "McLaren" , cursive;
+}
+
+.container{
+  display: block;
+  margin : auto;
+  text-align: center;
+  background-color: white;
+  border: #f5ba13;
+  border-radius : 10px;
+  padding : 1px 2px 1px 1px;
+  transition : 800ms;
+  height : 425px;
+  width : 200px;
+  opacity : 1;
+  border-style : solid;
+  border-color: darkblue;
+}
+
