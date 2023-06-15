@@ -16,7 +16,7 @@ function App() {
       .then((response) => console.log(response))
       .catch((e) => console.log(e));
   }, []);
-  const LoggedIn = window.localStorage.getItem('isLoggedIn');
+  //const LoggedIn = window.localStorage.getItem('isLoggedIn');
   const [isShowLogin, setIsShowLogin] = useState(false);
   const [isShowSignUp, setIsShowSignUp] = useState(false);
   const [isShowContent, setIsShowContent] = useState(false);
