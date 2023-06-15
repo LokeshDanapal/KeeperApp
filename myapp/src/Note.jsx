@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-function Note(props) {
+function Note({ isContentUpdated }) {
   const userName = window.localStorage.getItem("username");
   const [data, setData] = useState([]);
   useEffect(() => {
@@ -22,7 +22,7 @@ function Note(props) {
         setData(data.data);
       })
       .catch((err) => console.log(err));
-  }, []);
+  }, [isContentUpdated , userName]);
 
   return (
     <div >

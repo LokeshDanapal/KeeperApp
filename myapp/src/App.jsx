@@ -71,7 +71,7 @@ function App() {
         <SignUp onSignUpStatus={handleSignUp} />
       )}
       {isLoggedIn || isSignedUp ? (
-        <Note />
+        <Note key={isContentUpdated} isContentUpdated={isContentUpdated}/>
       ) : (
         <h1  style={{ textAlign: 'center', fontFamily : 'sans-serif' }}> Login/SignUp to see Your Notes </h1>
       )}
