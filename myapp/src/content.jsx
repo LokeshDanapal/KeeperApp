@@ -8,7 +8,7 @@ export default function Content(isShowSignUp) {
   const handleSubmit1 = (e) => {
     e.preventDefault();
     console.log(title, content);
-    fetch("http://localhost:5000/api1/addNotes", {
+    fetch("https://keeper-server-3het.onrender.com/api1/addNotes", {
       method: "POST",
       crossDomain: true,
       headers: {

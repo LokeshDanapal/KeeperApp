@@ -9,7 +9,7 @@ const SignUpForm = (isShowSignUp) => {
     e.preventDefault();
     if(password === cpassword){
     console.log(username,password,email);
-    fetch("http://localhost:5000/api/signup",{
+    fetch("https://keeper-server-3het.onrender.com/api/signup",{
        method : "POST",
        crossDomain: true,
        headers: {

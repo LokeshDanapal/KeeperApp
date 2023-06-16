@@ -12,7 +12,7 @@ import { useEffect } from "react";
 
 function App() {
   useEffect(() => {
-    Axios.get("http://localhost:5000/getData")
+    Axios.get("https://keeper-server-3het.onrender.com/getData")
       .then((response) => console.log(response))
       .catch((e) => console.log(e));
   }, []);

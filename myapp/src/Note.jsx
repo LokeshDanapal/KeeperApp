@@ -4,7 +4,7 @@ function Note({ isContentUpdated }) {
   const userName = window.localStorage.getItem("username");
   const [data, setData] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/api1/LoadNotes", {
+    fetch("https://keeper-server-3het.onrender.com/api1/LoadNotes", {
       method: "POST",
       crossDomain: true,
       headers: {
